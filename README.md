@@ -4,9 +4,9 @@
 ### Web Frameworks
 
 * Node
-* Express
-* Koa
-* Hapi
+    * Express
+    * Koa
+    * Hapi
 * Django
 * Flask
 
@@ -15,14 +15,14 @@
 * Angular
 * Angular2
 * React
-* React (Router)
-* React (Flux)
-* React (Redux)
-* React (Next)
+    * Router
+    * Flux
+    * Redux
+    * Next
 * Vue
-* Vue (Router)
-* Vue (Vuex)
-* Vue (Nuxt)
+    * Router
+    * Vuex
+    * Nuxt
 * UI-Router
 * Backbone
 * Ember
@@ -36,9 +36,10 @@
 ### Data Visualization
 
 * d3
-* angular-nvd3
-* ng2-nvd3
-* react-nvd3
+* nvd3
+    * angular-nvd3
+    * ng2-nvd3
+    * react-nvd3
 
 ### CSS Preprocessors
 
@@ -60,13 +61,14 @@
 
 ### Databases
 
-* postgres
-* pg
-* sequelize
-* mongodb
-* mongoose
-* redis
-* ioredis
+* PostgreSQL
+    * Pg
+    * Sequelize
+* MongoDB
+    * Mongoose
+* Redis
+    * Node-Redis
+    * Ioredis
 
 ### Templating Engines
 
@@ -80,9 +82,9 @@
 
 * Karma
 * Mocha
-* Chai
-* Should
-* Expect
+    * Chai
+    * Should
+    * Expect
 * Jasmine
 * Protractor
 * Selenium
