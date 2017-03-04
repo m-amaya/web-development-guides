@@ -1,115 +1,70 @@
 # Web Development Guides
 > Guides to using major web development technologies.
 
-### Web Frameworks
+## Client-Side Technologies
 
-* Node
-    * Express
-    * Koa
-    * Hapi
-* Django
-* Flask
+| Frameworks | Data Visualization | Util |
+|: -------- :|: ---------------- :|: -- :|
+| Angular    | d3                 | Async |
+| Angular2   | nvd3               | Axios |
+| React      | * angular-nvd3     | Bluebird |
+| * Router   | * ng2-nvd3         | Immutable |
+| * Flux     | * react-nvd3       | jQuery |
+| * Redux    |                    | Lodash |
+| * Next     |                    | Marked |
+| Vue        |                    | Moment |
+| * Router   |                    | Operative |
+| * Vuex     |                    | Prism |
+| * Next     |                    | Ramda |
+| UI-Router  |                    | Socket.IO |
+| Backbone   |                    | Superagent |
+| Ember      | | |
+| Meteor     | | |
 
-### Client Frameworks
+## Server-Side Technologies
 
-* Angular
-* Angular2
-* React
-    * Router
-    * Flux
-    * Redux
-    * Next
-* Vue
-    * Router
-    * Vuex
-    * Nuxt
-* UI-Router
-* Backbone
-* Ember
-* Meteor
+| Frameworks | Templating Engines | Databases | Util |
+|: -------- :|: ---------------- :|: ------- :|: -- :|
+| Node       | EJS                | PostgreSQL | Async |
+| * Express  | Pug                | * Pg       | Axios |
+| * Koa      | Handlebars         | * Sequelize | Bluebird |
+| * Hapi     | Nunjucks           | MongoDB     | Boom |
+| Django     | jinja2             | * Mongoose  | Celery |
+| Flask      |                    | Redis       | Config |
+|            |                    | * node-redis | Cors |
+|            |                    | * ioredis    | Immutable |
+|            |                    |              | jQuery |
+|            |                    |              | Lodash |
+|            |                    |              | Marked |
+|            |                    |              | Moment |
+|            |                    |              | Nconf |
+|            |                    |              | Operative |
+|            |                    |              | Prism |
+|            |                    |              | RabbitMQ |
+|            |                    |              | Ramda |
+|            |                    |              | RxJS |
+|            |                    |              | Socket.IO |
+|            |                    |              | Superagent |
+|            |                    |              | Winston |
 
-### JS Language
+## Language Supersets
 
-* ES6
-* TypeScript
+| JavaScript | CSS |
+|:----------:|:---:|
+| ES6          | Less |
+| TypeScript   | Sass |
+| CoffeeScript | Stylus |
 
-### Data Visualization
+## Dev Tools
 
-* d3
-* nvd3
-    * angular-nvd3
-    * ng2-nvd3
-    * react-nvd3
-
-### CSS Preprocessors
-
-* Less
-* Sass
-* Stylus
-
-### Bundlers and Transformers
-
-* Browserify
-* Babel
-* Webpack
-* Rollup
-
-### Task Runners
-
-* Grunt
-* Gulp
-
-### Databases
-
-* PostgreSQL
-    * Pg
-    * Sequelize
-* MongoDB
-    * Mongoose
-* Redis
-    * Node-Redis
-    * Ioredis
-
-### Templating Engines
-
-* EJS
-* Pug
-* Handlebars
-* Nunjucks
-* jinja2
-
-### Testing Frameworks
-
-* Karma
-* Mocha
-    * Chai
-    * Should
-    * Expect
-* Jasmine
-* Protractor
-* Selenium
-* Phantom
-
-### Util Libraries
-
-* Async
-* Axios
-* Bluebird
-* Boom
-* Celery
-* Config
-* Cors
-* Immutable
-* jQuery
-* Lodash
-* Marked
-* Moment
-* Nconf
-* Operative
-* Prism
-* RabbitMQ
-* Ramda
-* RxJS
-* Socket.IO
-* Superagent
-* Winston
+| Bundlers/Transformers | Task Runners | Testing Frameworks |
+|:---------------------:|:------------:|:------------------:|
+| Browserify            | Grunt        | Karma              |
+| Babel                 | Gulp         | Mocha              |
+| Webpack               |              | * Chai             |
+| Rollup                |              | * Should           |
+|                       |              | * Expect           |
+|                       |              | Jasmine            |
+|                       |              | Protractor         |
+|                       |              | Selenium           |
+|                       |              | Phantom            |
