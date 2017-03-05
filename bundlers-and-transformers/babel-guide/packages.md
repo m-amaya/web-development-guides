@@ -4,9 +4,9 @@
 
 **[babel-core](https://github.com/babel/babel/blob/7.0/packages/babel-core)** - the Babel compiler itself; it exposes the `babel.transform` method, where `transformCode = transform(src).code`. The compiler can be broken down into three parts:
 
-    1. [babylon](https://github.com/babel/babylon) - a JavaScript parser used in Babel
-    2. The transformer[s] (a.k.a all the plugins/presets). These all use [babel-traverse](https://github.com/babel/babel/blob/7.0/packages/babel-traverse) to traverse through the AST.
-    3. [babel-generator](https://github.com/babel/babel/blob/7.0/packages/babel-generator) - the generator
+1. [babylon](https://github.com/babel/babylon) - a JavaScript parser used in Babel
+2. The transformer[s] (a.k.a all the plugins/presets). These all use [babel-traverse](https://github.com/babel/babel/blob/7.0/packages/babel-traverse) to traverse through the AST.
+3. [babel-generator](https://github.com/babel/babel/blob/7.0/packages/babel-generator) - the generator
 
 The flow:
 
