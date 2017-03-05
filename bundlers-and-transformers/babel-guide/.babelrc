@@ -1,0 +1,101 @@
+{
+    // npm install babel-preset-[preset-name]
+    "presets": [
+        "env", //<-- babel-preset-env
+        "es2015", //<-- babel-preset-es2015
+        "es2016", //<-- babel-preset-es2016
+        "es2017", //<-- babel-preset-es2017
+        "flow", //<-- babel-preset-flow
+        "latest", //<-- babel-preset-latest
+        "react", //<-- babel-preset-react
+        "stage-0", //<-- babel-preset-stage-0
+        "stage-1", //<-- babel-preset-stage-1
+        "stage-2", //<-- babel-preset-stage-2
+        "stage-3" //<-- babel-preset-stage-3
+    ],
+    // npm install babel-plugin-[plugin-name]
+    "plugins": [
+        // ES3
+        "transform-es3-member-expression-literals",
+        "transform-es3-property-literals",
+        // ES5
+        "transform-es5-property-mutators",
+        // ES2015
+        "transform-es2015-arrow-functions",
+        "transform-es2015-block-scoped-functions",
+        "transform-es2015-block-scoping",
+        "transform-es2015-classes",
+        "transform-es2015-computed-properties",
+        "transform-es2015-constants",
+        "transform-es2015-destructuring",
+        "transform-es2015-duplicate-keys",
+        "transform-es2015-for-of",
+        "transform-es2015-function-name",
+        "transform-es2015-literals",
+        "transform-es2015-object-super",
+        "transform-es2015-parameters",
+        "transform-es2015-shorthand-properties",
+        "transform-es2015-spread",
+        "transform-es2015-sticky-regex",
+        "transform-es2015-template-literals",
+        "transform-es2015-typeof-symbol",
+        "transform-es2015-unicode-regex",
+        // ES2016
+        "transform-exponentiation-operator",
+        // ES2017
+        "transform-async-to-generator",
+        // Modules
+        "transform-es2015-modules-amd",
+        "transform-es2015-modules-commonjs",
+        "transform-es2015-modules-systemjs",
+        "transform-es2015-modules-umd",
+        // Experimental
+        "transform-async-generator-functions",
+        "transform-async-to-module-method",
+        "transform-class-properties",
+        "transform-decorators",
+        "transform-do-expressions",
+        "transform-export-extensions",
+        "transform-function-bind",
+        "transform-object-rest-spread",
+        // Minification
+
+        // React
+        "transform-react-constant-elements",
+        "transform-react-display-name",
+        "transform-react-inline-elements",
+        "transform-react-jsx",
+        "transform-react-jsx-compat",
+        "transform-react-jsx-self",
+        "transform-react-jsx-source",
+        // Other
+        "transform-eval",
+        "transform-flow-comments",
+        "transform-flow-strip-types",
+        "transform-jscript",
+        "transform-object-assign",
+        "transform-object-set-prototype-of-to-assign",
+        "transform-proto-to-assign",
+        "transform-regenerator",
+        "transform-runtime",
+        "transform-strict-mode",
+        // Miscellaneous
+        "external-helpers",
+        "undeclared-variables-check",
+        // Syntax
+        "syntax-async-generators",
+        "syntax-class-properties",
+        "syntax-decorators",
+        "syntax-do-expressions",
+        "syntax-dynamic-import",
+        "syntax-export-extensions",
+        "syntax-flow",
+        "syntax-function-bind",
+        "syntax-function-sent",
+        "syntax-jsx",
+        "syntax-object-rest-spread",
+        "syntax-async-functions",
+        "syntax-exponentiation-operator",
+        "syntax-trailing-function-commas",
+    ]
+}

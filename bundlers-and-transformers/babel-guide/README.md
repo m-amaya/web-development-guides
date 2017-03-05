@@ -6,3 +6,9 @@
 > **Github:** [https://github.com/babel/babel](https://github.com/babel/babel)
 
 Babel is a community-driven tool that helps you write the latest version of JavaScript.
+
+### Installation
+
+```bash
+$ npm install --save-dev babel-cli
+```
